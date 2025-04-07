@@ -31,10 +31,10 @@ The **GSA Stores Management System (gsa_sms)** is a web-based inventory and stor
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, AJAX
+- **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP (OOP)
-- **Database**: MySQL
-- **Admin Template**: Bootstrap (with custom enhancements)
+- **Database**: phpMyAdmin
+- **Admin Template**: Developed from scratch
 
 ## ⚙️ Installation & Setup
 
@@ -123,4 +123,4 @@ This project is open-source and free to use for educational and organizational p
 
 ---
 
-Let me know if you’d like me to add the actual SQL dump (`gsa_sms.sql`), a sample login page preview, or help upload this to GitHub.
+Let me know if you’d like me to add the actual SQL dump (`gsa_store_management.sql`), a sample login page preview, or help upload this to GitHub.
