@@ -1,0 +1,19 @@
+UPDATE items i
+SET quantity = (
+    -- Get the last known balance from store_records
+    COALESCE(
+        (SELECT s.balance 
+         FROM store_records s 
+         WHERE s.item_id = i.item_id 
+         ORDER BY s.date DESC, s.id DESC 
+         LIMIT 1), 
+        0
+    ) + 
+    -- Get the total received quantity from received_stock
+    COALESCE(
+        (SELECT SUM(r.received_quantity) 
+         FROM received_stock r 
+         WHERE r.item_id = i.item_id), 
+        0
+    )
+);
