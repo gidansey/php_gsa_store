@@ -108,7 +108,7 @@ The system uses AJAX to poll new notifications in real-time:
 ## 👨🏽‍💻 Author
 
 **Daniel Kojo Gidi**  
-*Digital, Media & Online Advertising Manager – Mica Ghana Ltd*  
+*Tech Vantage Solutions*  
 *Developer & Systems Designer for GSA Projects*
 
 ## 📄 License
